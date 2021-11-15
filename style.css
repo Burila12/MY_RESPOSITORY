@@ -1,0 +1,39 @@
+
+body {margin: 1;
+background-color: #f8edeb;
+}
+a:hover{
+  background-color: #fdffb6;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f8edeb;
+border-style: outset;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li h1 {
+  display: block;
+  color: #219ebc;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+ul.topnav li a {
+    display: block;
+    color: #219ebc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.topnav li.right {float: right;}
+
+
+
+
+
+
