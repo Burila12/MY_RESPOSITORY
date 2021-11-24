@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REGISTRATION</title>
+        <link rel="stylesheet" href="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      </head>
+    <body>
+<style>
+body {margin: 1;
+background-color: #f8edeb;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f8edeb;
+border-style: outset;
+}
+form{
+padding: 3%;
+margin: 2%;
+}
+label{
+    padding: 0.5%;
+    
+}
+input[type=text]:focus, 
+input[type=email]:focus {
+  background-color: rgb(200, 214, 240);
+  outline: none;
+}
+.bg-img{ background-color: grey;
+  color: white;
+  padding: 1%;
+  border: none;
+  opacity: 0.9;
+  margin: 100px;
+
+}
+.btn {
+  background-color: #66cfff;
+  color: black;
+  padding: 10px;
+  border: none;
+  cursor:pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+</style>
+<ul  class="topnav">
+    <li><h1>UNIVERSITY OF CEBU</h1> </li>
+</ul>
+<div class="bg-img">
+<h1 style="text-align: center; color: rgb(183, 185, 185);">REGISTRATION</h1>
+
+<form>
+    <label for="fname">FIRST NAME:</label>
+    <input type="text" id="fname" name="fname"> 
+    <label for="mi">MIDDLE NAME:</label>
+    <input type="text" id="mi" name="mi" > 
+    <label for="lname">LAST NAME:</label>
+    <input type="text" id="lname" name="lname" >
+    <p style="padding: 0.5%;">SELECT YOUR GENDER</p>
+    <input type="radio" id="FEMALE" name="GENDER">
+    <label for="MALE">MALE</label><br>
+    <input type="radio" id="FEMALE" name="GENDER">
+    <label for="FEMALE">FEMALE</label><br><br>
+    <label for="email">EMAIL:</label>
+    <input type="email" id="email" name="email"> 
+    <label for="ADDRESS">HOME ADDRESS:</label>
+    <textarea id="ADDRESS" name="ADDRESS" rows="1" cols="40"></textarea> <br>
+    <p>HOBBIES</p>
+    <input type="checkbox" id="Computer games" name="Computer games">
+<label for="Computer games"> Computer games</label><br>
+<input type="checkbox" id="Playing music instruments" name="Playing music instruments">
+<label for="Playing music instruments"> Playing music instruments</label><br>
+<input type="checkbox" id="Cooking" name="Cooking">
+<label for="Cooking"> Cooking</label><br>
+<input type="checkbox" id="Drawing" name="Drawing">
+<label for="Drawing"> Drawing</label><br>
+<br>
+<p>FAVORITE COLOR</p>
+<select name="FAVORITE COLORS">
+    <option value="BLUE" style="color: blue;">BLUE</option>
+    <option value="BLACK" style="color: black;">BLACK</option>
+    <option value="PINK" style="color: pink;">PINK</option>
+    <option value="WHITE" style="color: red;">RED</option>
+</select>
+<br><br>
+<label for="ABOUT">Say something about yourself:</label><br><BR>
+<textarea id="ABOUT" name="ABOUT" rows="3" cols="100">
+</textarea> <br><br>
+
+    <button type="submit" class="btn" >SUBMIT</button>
+     <button type="reset" class="btn">CLEAR</button>
+</form>
+</div>
+
+</body>
+    </html>
