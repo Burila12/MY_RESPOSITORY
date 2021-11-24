@@ -8,7 +8,7 @@ Create a simple website that contains the following:
 4. Print the UC Hymn with different colors in every paragraph.
 Use CSS for colors.
 Upload your files to your github repository. Paste the link below. (The same link from our prev. assignment)
-#HTML Forms (with html exercise)
+# HTML Forms (with html exercise)
 Create a simple html form that will ask the user to input the following:
 
 First name (Textbox)
